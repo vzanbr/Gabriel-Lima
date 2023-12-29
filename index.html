@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!--Fim fontes-->
+    <!--Botstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Fim botstrap icon-->
+    <link rel="stylesheet" href="style.css">
+    <title>Gabriel Lima</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+               <a href="">
+                <img src="images/logotop.png" alt="Logo Portofólio">
+               </a>
+            </div><!--Logotipo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+            <nav id="menu">
+                    <button oneclick="animar()" id="btn-menu-mobile">
+                        <span class="linha"></span>
+                        <span class="linha"></span>
+                        <span class="linha"></span>
+                    </button>
+            <div class="menu-mobile" id="menu-mobile">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+            </nav>
+            </div>
+
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Gabriel Lima
+                            Backend Developer - <span>.</span></h1>
+                        <p>Desenvolvedor Backend, com experiência em padrões REST em minhas aplicações, utilizando ferramentas como Spring Boot, MySQL, GIT, Scrum em meu cotidiano, atualmente trabalhando em um projeto monólito e estamos migrando para micro serviços, Versão 8 do Java
+                            Me considero ágil e consistente em aprender uma nova linguagem e me adaptar á quaisquer mudanças, determinado para superar qualquer desafio!</p>
+                        <div class="btn-contato">
+                            <a href="#">
+                               <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/Gabriel.jpg" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--Flex-->
+            </div><!--interface-->
+        </section> <!--topo-do-site-->
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>WebSite</h3>
+                    </div><!--Especialiadades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-github"></i>
+                        <h3>GitHUB</h3>
+                        <p> Meus Projetos</p>
+                    </div><!--Especialiadades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-linkedin"></i>
+                        <h3>Linkedln</h3>
+                    </div><!--Especialiadades-box-->
+
+                    <div class="skills">
+                        <h1>Minhas Linguagem</h1>
+
+                        <ul>
+                            <li>
+                                <h3>JAVA</h3>
+                                <span class="barras"><span class="java"></span></span>
+                            </li>
+
+                            <li>
+                                <h3>HTML</h3>
+                                <span class="barras"><span class="html"></span></span>
+                            </li>
+
+                            <li>
+                                <h3>JavaScript</h3>
+                                <span class="barras"><span class="javascript"></span></span>
+                            </li>
+
+                            <li>
+                                <h3>CSS</h3>
+                                <span class="barras"><span class="css"></span></span>
+                            </li>
+
+                            <li>
+                                <h3>PHP</h3>
+                                <span class="barras"><span class="php"></span></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div><!--Flex-->
+            </div><!--interface-->
+        </section><!--fim especialidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/OIP.jpeg" alt="">
+                    </div><!--Fim img-sobre-->
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU GABRIEL LIMA.</span></h2>
+                        <p>Palavras que me define: Determinado, Otimista e esforçado!</p>
+                        <p>Portfólio by Dev GABRIEL LIMA</p>
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/gabriel19br"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/vzanbr"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.instagram.com/livesgabriel"><button><i class="bi bi-instagram"></i></button></a>
+                        </div>
+                    </div> <!--Fim txt sobre-->
+                </div>
+            </div><!--fim-interface-->
+        </section><!--Fim Sobre-->
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url();">
+                        <div class="overlay">Projeto </div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto2.png);">
+                        <div class="overlay">Projeto II</div>
+                    </div>
+                    <div class="img-port" style="background-image: url();">
+                        <div class="overlay">Projeto </div>
+                    </div>
+                </div><!--Fim Flex-->
+            </div>
+        </section><!--Fim Porfólio-->
+        
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form method="post" action="./envia.php">
+                    <div class="input-single">
+                    <input class="input" type="text" name="nome" id="nome" placeholder="Seu nome:" required>
+                    </div>
+                    
+                    <div class="input-single">
+                    <input class="input" type="text" name="email" id="email" name="email" placeholder="Seu e-mail:" required>
+                    </div>
+                    
+                    <div class="input-single">
+                    <input class="input" type="text" name="celular" id="celular" placeholder="Seu celular:">
+                    </div>
+
+                    <textarea name="mensagem" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+                
+            </div>
+        </section><!--Fim Formulario-->
+    </main>
+
+    <footer><!--Roda pe-->
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/Logo.jpg" alt="Logotipo">
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.linkedin.com/in/gabriel19br"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/vzanbr"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.instagram.com/livesgabriel"><button><i class="bi bi-instagram"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="malito:gabriecvr123@gmail.com">gabriecvr123@gmail.com</a></p>
+            </div>
+        </div>
+    </footer><!--Fim Roda pe-->
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
