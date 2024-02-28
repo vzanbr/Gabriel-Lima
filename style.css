@@ -59,14 +59,14 @@ header>.interface {
 }
 
 header a {
-    color: rgb(65, 65, 65);
+    color: rgb(186, 182, 182);
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
 header a:hover {
-    color: rgb(221, 221, 221);
+    color: rgb(185, 183, 183);
     transform: scale(1.05);
 }
 
@@ -221,12 +221,12 @@ section.especialidades .flex {
 }
 
 .java{
-    width: 70%;
+    width: 80%;
     animation: java 5s;
 }
 
 .html{
-    width: 40%;
+    width: 50%;
     animation: html 5s;
 }
 
@@ -250,7 +250,7 @@ section.especialidades .flex {
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -259,7 +259,7 @@ section.especialidades .flex {
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 50%;
     }
 }
 
@@ -442,10 +442,11 @@ form .btn-enviar input {
 footer {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #ffffff26;
+    text-align: center;
 }
 
 footer .flex {
-    justify-content: space-between;
+    justify-content: center ;
 }
 
 footer .line-footer {
@@ -620,6 +621,7 @@ footer .line-footer p a {
 
     footer .flex{
         gap: 30px;
+        text-align: center;
     }
 
     footer .line-footer{
