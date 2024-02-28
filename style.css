@@ -6,8 +6,9 @@
 }
 
 body {
-    background-color: black;
+    background-color: #0c192c;
     height: 100vh;
+    
 }
 
 .interface {
@@ -24,7 +25,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: blueviolet;
+    background-color: rgb(13, 116, 122);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -38,7 +39,7 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: rgb(130, 5, 124);
+    color: rgb(13, 116, 122);
 }
 
 button:hover,
@@ -67,7 +68,7 @@ header a {
 }
 
 header a:hover {
-    color: rgb(185, 183, 183);
+    color: rgb(255, 239, 239);
     transform: scale(1.05);
 }
 
@@ -126,7 +127,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: blueviolet;
+    color: rgb(13, 116, 122);
     font-size: 70px;
 }
 
@@ -143,7 +144,7 @@ section.topo-do-site .flex {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
     border-radius: 1000px;
-    box-shadow: 0 0 40px 10px #b0089a8b;
+    box-shadow: 0 0 40px 10px rgb(13, 116, 122);
 
 }
 
@@ -181,7 +182,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box i {
     font-size: 65px;
-    color: blueviolet;
+    color: rgb(13, 116, 122);
 }
 
 .especialidades .especialidades-box h3 {
@@ -193,8 +194,8 @@ section.especialidades .flex {
     width: 500px;
     padding: 40px;
     border-radius: 20px;
-    background-color: blueviolet;
-    box-shadow: 0 15px 20px #b60cc6a1;
+    background-color: rgb(13, 116, 122);
+    box-shadow: 0 15px 20px #0cc660a1;
 }
 
 .skills ul{
@@ -315,13 +316,13 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: blueviolet;
+    color: rgb(13, 116, 122);
     display: block;
 }
 
 .sobre .txt-sobre p {
     margin: 20px 0;
-    box-shadow: 0 2px #b70cc6;
+    box-shadow: 0 2px #0cc615;
 }
 
 .btn-social button {
@@ -329,7 +330,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 30px;
     border: none;
-    background-color: blueviolet;
+    background-color: rgb(13, 116, 122);
     font-size: 24px;
     cursor: pointer;
     margin: 0 6px;
@@ -337,7 +338,7 @@ section.sobre .flex {
 
 .img-sobre img {
     border-radius: 100px;
-    box-shadow: 0 0 5px #b0089a8b;
+    box-shadow: 0 0 5px #19ee128b;
 }
 
 /*Meus Projetos */
@@ -372,7 +373,7 @@ section.portfolio .flex {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(137, 43, 226, 0.667);
+    background-color: rgb(13, 116, 122);
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -417,7 +418,7 @@ textarea {
 }
 
 form input::placeholder {
-    color: rgba(137, 43, 226, 0.425);
+    color: rgba(43, 226, 98, 0.425);
 }
 
 form textarea {
@@ -432,7 +433,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: blueviolet;
+    background-color: rgb(13, 116, 122);
     color: black;
     font-weight: 700;
     cursor: pointer;
@@ -455,11 +456,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #b70cc6;
+    border-top: 2px solid #0cc656;
 }
 
 footer .line-footer p i {
-    color: blueviolet;
+    color: rgb(43, 226, 55);
     font-size: 25px;
 }
 
