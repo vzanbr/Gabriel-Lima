@@ -8,13 +8,57 @@
 body {
     background-color: #0c192c;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .5s;
     
+}
+
+.trilho {
+    margin-left: auto;
+    padding-bottom: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.trilho .indicador {
+    width: 35px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.trilho.dark {
+    background-color: #000000;
+}
+
+.trilho.dark .indicador {
+    left:43px;
+    background-color: #fff;
+}
+
+body.dark{
+    background-color: #22555c;
+}
+
+body.dark h8{
+    background-color: black;
 }
 
 .interface {
     max-width: 1280px;
     margin: 0 auto;
 }
+
 
 
 .flex {
@@ -195,7 +239,7 @@ section.especialidades .flex {
     padding: 40px;
     border-radius: 20px;
     background-color: rgb(13, 116, 122);
-    box-shadow: 0 15px 20px #0cc660a1;
+    box-shadow: 0 15px 20px #0caac6a1;
 }
 
 .skills ul{
@@ -296,21 +340,35 @@ section.especialidades .flex {
 /* ESTILO SOBRE*/
 
 section.sobre {
-    padding: 40px 4%;
+    padding: 75px 20%;
+    font-size: medium;
+    margin: auto;
+    width: 700px;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: rgb(13, 116, 122);
+    box-shadow: 0 15px 20px #0caac6a1;
+}
+
+section.sobre ul{
+    list-style: none;
+}
+
+section.sobre ul li{
+    margin: 20px 0;
 }
 
 section.sobre .flex {
     align-items: center;
-    gap: 60px;
+    gap: 15px;
+
 }
 
 .sobre .txt-sobre {
     color: #fff;
-
 }
-
 .sobre .txt-sobre h2 {
-    font-size: 45px;
+    font-size: 50px;
     line-height: 40px;
     margin-bottom: 30px;
 }
@@ -321,30 +379,78 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre p {
-    margin: 20px 0;
-    box-shadow: 0 2px #0cc615;
+    margin: 25px 0;
+    box-shadow: 0 2px #0c91c6;
 }
 
 .btn-social button {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(13, 116, 122);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.btn-social2 button {
+    width: 75px;
+    height: 75px;
+    gap: 55px;
     border-radius: 30px;
     border: none;
     background-color: rgb(13, 116, 122);
     font-size: 24px;
     cursor: pointer;
-    margin: 0 6px;
+    margin: 0 55px;
 }
 
 .img-sobre img {
     border-radius: 100px;
-    box-shadow: 0 0 5px #19ee128b;
+    box-shadow: 0 0 5px #12a5ee8b;
 }
+
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 
 /*Meus Projetos */
 section.portfolio {
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #ffffff26;
+    margin-top: 120px;
 }
 
 section.portfolio .flex {
@@ -418,7 +524,7 @@ textarea {
 }
 
 form input::placeholder {
-    color: rgba(43, 226, 98, 0.425);
+    color: rgba(252, 252, 252, 0.425);
 }
 
 form textarea {
@@ -456,11 +562,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #0cc656;
+    border-top: 2px solid #0cb0c6;
 }
 
 footer .line-footer p i {
-    color: rgb(43, 226, 55);
+    color: rgb(13, 63, 156);
     font-size: 25px;
 }
 
