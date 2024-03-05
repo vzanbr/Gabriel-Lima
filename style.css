@@ -587,6 +587,22 @@ footer .line-footer p a {
 
     /* Classes gerais*/
 
+    .trilho {
+        margin-right: auto;
+        margin-top: auto;
+        padding-bottom: 10px;
+        width: 80px;
+        height: 30px;
+        background-color: #ffffff;
+        border-radius: 150px;
+        cursor: pointer;
+    }
+
+    .btn-contato {
+        display: none;
+    }
+    
+
     .flex {
         flex-direction: column;
     }
@@ -601,7 +617,7 @@ footer .line-footer p a {
     }
 
     /* Cabeçalho */
-    .menu-desktop, .btn-contato {
+    .menu-desktop {
         display: none;
     }
 
