@@ -409,7 +409,7 @@ section.sobre .flex {
     background-color: rgb(13, 116, 122);
     font-size: 24px;
     cursor: pointer;
-    margin: 0 50px;
+    margin: 0 55px;
 }
 
 .img-sobre img {
@@ -709,6 +709,7 @@ footer .line-footer p a {
     .btn-social2{
         text-align: center;
         margin: 0 5px;
+        display: none;
     }
 }
 
