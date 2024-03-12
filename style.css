@@ -204,7 +204,9 @@ section.topo-do-site .flex {
 
 /* Estilo das especialidades */
 section.especialidades {
-    padding: 40px 4%;
+    padding: 40px 8%;
+    gap: 20px;
+    
 }
 
 section.especialidades .flex {
