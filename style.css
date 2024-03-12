@@ -205,8 +205,8 @@ section.topo-do-site .flex {
 /* Estilo das especialidades */
 section.especialidades {
     padding: 40px 8%;
-    gap: 20px;
-    
+    gap: 60px;
+
 }
 
 section.especialidades .flex {
@@ -471,7 +471,7 @@ section.portfolio .flex {
     width: 360px;
     height: 460px;
     background-size: cover;
-    background-position: 100% 0%;
+    background-position: 77% 0%;
     transition: 8s;
     cursor: pointer;
     border-radius: 40px;
