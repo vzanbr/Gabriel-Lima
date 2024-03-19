@@ -587,16 +587,18 @@ footer .line-footer p a {
 
     .agrade{
         display: flex;
+
         align-items: center;
         justify-content: center;
         min-height: 100vh;
-        background-color: #000000;
+        background-color: #666262;
         flex-direction: column;
     }
 
     .text {
         font-size: 45px;
         color: white;
+        padding: 25px;
         margin-bottom: 30px;
     }
 
@@ -612,9 +614,12 @@ footer .line-footer p a {
         color: #101026;
         font-size: 18px;
         transition: all 0.5s;
+        border-radius: 50px;
+        cursor: pointer;
     }
 
     .btn-agrade:hover {
+        background-color: #ccc;
         border-radius: 16px;
     }
 
