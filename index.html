@@ -159,21 +159,23 @@
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
                 <section>
-                <form action="./envia.php" method="post">
+                <form action="https://api.staticforms.xyz/submit" method="post">
                     <div class="input-single">
-                    <input class="input" type="text" name="nome" id="nome" placeholder="Seu nome:" required>
+                        <input class="input" type="text" name="nome" id="nome" placeholder="Seu nome:" required>
                     </div>
                     
                     <div class="input-single">
-                    <input class="input" type="text" name="email" id="email" name="email" placeholder="Seu e-mail:" required>
+                        <input class="input" type="text" name="email" id="email" name="email" placeholder="Seu e-mail:" required>
                     </div>
                     
                     <div class="input-single">
-                    <input class="input" type="text" name="celular" id="celular" placeholder="Seu celular:">
+                        <input class="input" type="text" name="celular" id="celular" placeholder="Seu celular:">
                     </div>
-
                     <textarea name="mensagem" id="" placeholder="Sua mensagem" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                    
+                    <input type="hidden" name="accessKey" value="b581f2eb-d0e3-41e7-b1c2-b3baf998e19d">
+                    <input type="hidden" name="redirectTo" value="https://vzanbr.github.io/Gabriel-Lima/agradecimento.html">
                 </form>
             </section>
             </div>
