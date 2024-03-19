@@ -583,6 +583,41 @@ footer .line-footer p a {
     color: #fff;
 }
 
+    /*Agradecimento.html */
+
+    .agrade{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #000000;
+        flex-direction: column;
+    }
+
+    .text {
+        font-size: 45px;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .paragrafo {
+        color: #f5f5f5;
+        margin-bottom: 50px;
+    }
+
+    .btn-agrade {
+        padding: 15px 55px;
+        background-color: white;
+        text-decoration: none;
+        color: #101026;
+        font-size: 18px;
+        transition: all 0.5s;
+    }
+
+    .btn-agrade:hover {
+        border-radius: 16px;
+    }
+
 /* Dimensão */
 
 @media screen and (max-width: 1020px) {
@@ -622,6 +657,7 @@ footer .line-footer p a {
     .menu-desktop {
         display: none;
     }
+
 
     /*Menu mobile*/
 
