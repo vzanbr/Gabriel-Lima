@@ -204,9 +204,8 @@ section.topo-do-site .flex {
 
 /* Estilo das especialidades */
 section.especialidades {
-    padding: 40px 8%;
+    padding: 50px 16%;
     gap: 60px;
-
 }
 
 section.especialidades .flex {
@@ -355,6 +354,12 @@ section.sobre {
     border-radius: 20px;
     background-color: rgb(13, 116, 122);
     box-shadow: 0 15px 20px #0caac6a1;
+}
+
+h3.empresa {
+    color: rgba(255, 234, 234, 0.878);
+    font-size: 25px;
+    line-height: 40px;
 }
 
 section.sobre ul{
@@ -747,7 +752,7 @@ footer .line-footer p a {
 
     /* Especialidades */
     section.especialidades {
-        padding: 40px 8%;
+        padding: 60px 22%;
     }
 
     .skills{
