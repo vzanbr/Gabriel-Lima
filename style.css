@@ -574,7 +574,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: rgb(13, 116, 122);
+    background-color: rgb();
     color: black;
     font-weight: 700;
     cursor: pointer;
@@ -586,6 +586,27 @@ footer {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #ffffff26;
             text-align: center;
+}
+
+.grid-layout {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 20px;
+    width: 700px;
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 4px  #ffffffa1;
+}
+
+p.grid {
+    color:white;
+    font-size: 17px;
+}
+
+a.letrafooter {
+    color: rgb(13, 116, 122);
 }
 
 footer .flex {
