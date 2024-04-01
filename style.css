@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #0c192c;
+    background-image: linear-gradient(to right, #060a11, rgb(17, 8, 24));
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,8 @@ body {
 }
 
 body.dark{
-    background-color: #22555c;
+    background-image: linear-gradient(to right, #050505, rgb(43, 28, 83));
+
 }
 
 body.dark h8{
@@ -90,7 +91,7 @@ h1.idioma {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: rgb(13, 116, 122);
+    background-image: linear-gradient(to right, #878a8f, rgb(127, 88, 156));
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -104,7 +105,7 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: rgb(13, 116, 122);
+    color: rgb(101, 34, 179);
 }
 
 button:hover,
@@ -192,7 +193,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: rgb(13, 116, 122);
+    color: rgb(82, 13, 122);
     font-size: 70px;
 }
 
@@ -209,7 +210,7 @@ section.topo-do-site .flex {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
     border-radius: 1000px;
-    box-shadow: 0 0 40px 10px rgb(13, 116, 122);
+    box-shadow: 0 0 40px 10px rgb(82, 13, 122);
 
 }
 
@@ -248,7 +249,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box i {
     font-size: 65px;
-    color: rgb(13, 116, 122);
+    color: rgb(82, 13, 122);
 }
 
 .especialidades .especialidades-box h3 {
@@ -260,7 +261,7 @@ section.especialidades .flex {
     width: 500px;
     padding: 40px;
     border-radius: 20px;
-    background-color: rgb(13, 116, 122);
+    background-color: rgb(82, 13, 122);
     box-shadow: 0 15px 20px #0caac6a1;
 }
 
@@ -373,8 +374,8 @@ section.sobre {
     width: 700px;
     padding: 60px;
     border-radius: 20px;
-    background-color: rgb(13, 116, 122);
-    box-shadow: 0 15px 20px #0caac6a1;
+    background-color: rgba(57, 23, 77, 0.61);
+    box-shadow: 0 15px 20px #c2c2c2a1;
 }
 
 h3.empresa {
@@ -407,13 +408,13 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: rgb(13, 116, 122);
+    color: rgb(82, 13, 122);
     display: block;
 }
 
 .sobre .txt-sobre p {
     margin: 25px 0;
-    box-shadow: 0 2px #0c91c6;
+    box-shadow: 0 2px rgb(82, 13, 122);
 }
 
 .btn-social button {
@@ -422,7 +423,7 @@ section.sobre .flex {
     gap: 10px;
     border-radius: 30px;
     border: none;
-    background-color: rgb(13, 116, 122);
+    background-color: rgb(82, 13, 122);
     font-size: 20px;
     cursor: pointer;
     margin: 0 10px;
@@ -434,7 +435,8 @@ section.sobre .flex {
     gap: 10px;
     border-radius: 30px;
     border: none;
-    background-color: rgb(13, 116, 122);
+    background-color: rgb(82, 13, 122);
+    box-shadow: 0 1px 1px 1px rgb(81, 81, 82);
     font-size: 24px;
     cursor: pointer;
     margin: 0 55px;
@@ -442,7 +444,7 @@ section.sobre .flex {
 
 .img-sobre img {
     border-radius: 100px;
-    box-shadow: 0 0 5px #12a5ee8b;
+    box-shadow: 0 0 5px rgb(82, 13, 122);
 }
 
 
@@ -514,7 +516,7 @@ section.portfolio .flex {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(13, 116, 122);
+    background-color: rgb(82, 13, 122);
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -606,7 +608,7 @@ p.grid {
 }
 
 a.letrafooter {
-    color: rgb(13, 116, 122);
+    color: rgb(82, 13, 122);
 }
 
 footer .flex {
@@ -618,11 +620,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #0cb0c6;
+    border-top: 2px solid rgb(82, 13, 122);
 }
 
 footer .line-footer p i {
-    color: rgb(13, 63, 156);
+    color: rgb(82, 13, 122);
     font-size: 25px;
 }
 
