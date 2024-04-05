@@ -12,7 +12,6 @@ body {
     align-items: center;
     flex-direction: column;
     transition: .5s;
-    
 }
 
 .trilho {
@@ -499,7 +498,7 @@ section.portfolio .flex {
     width: 360px;
     height: 460px;
     background-size: cover;
-    background-position: 77% 0%;
+    background-position: 50% 0%;
     transition: 8s;
     cursor: pointer;
     border-radius: 40px;
